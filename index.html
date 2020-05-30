@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beginning of HTML</title>
+</head>
+<body>
+
+	<!-- History part start -->
+
+	<h1>History and template structure of HTML</h1>
+<xmp>	
+		1. History: TIM Berners 1991.
+		2. The major revolution of HTML is version 4.0. 
+		3. We are using version 5 (HTML 5). {Published in 2012}
+		4. Latest version is version 5.2.
+	Template: 
+		Structure:Document Type + [HTML-Start(<html>) + {Head_Start(<head>) + Head-End(</head>)} + {Body-Start(<body>) + Body_End(</body>)} + Html-End(</html>html>)]
+</xmp>
+	
+	<!-- History part end -->
+
+	<!-- !Doctype part start -->
+
+
+<h1>!Doctype: Declaration of file type</h1>
+<xmp>
+	<!DOCTYPE html>	
+
+		1. Document type set as html, 
+		2. it allows the browser to read the document as an html file
+		3. it is not case sensitive so we can write <!DOCTYPE html> or <!DocType html> or <!Doctype html> or <!doctype html>
+</xmp>	
+
+	<!-- !Doctype part end -->
+
+
+	<!-- <html> part start -->
+
+<h1>HTML tag</h1>
+<xmp>
+	<html lang="en">
+
+		1. <html><html> holds all the elements of html file
+		2. land="en" defines the supported language of the file. here en=english
+</xmp>	
+
+	<!-- <html> part end -->
+
+	<!-- <head> part start -->
+
+<h1>head tag</h1>
+<xmp>
+	<head><head>
+
+		1. <head></head> holds all the information about and support of the body
+		2. Has to open start <head>, and end with</head>
+		3. such as <meta charset="utf-8"> , <title>Page name</title>
+			> <meta> tag always used inside <head></head> tag
+			> charset= character_set , it defines the encoding type
+			> UTF= Unicode Transformation Format
+			> Default encoding type for HTML5 is UTF-8
+		4. Title holds the page name that will show in the browser toolbar
+</xmp>
+
+	<!-- <head> part end -->	
+
+	<!-- body part start -->	
+	<h1>Body tag</h1>
+<xmp>	
+	<body></body>
+
+		1. Has to start with <body> and end with </body>.
+		2. Hold all the elements that will show in the browser page
+</xmp>
+
+	<!-- body part end -->
+
+	<!-- comment part start -->
+
+<h1>How to comment inside the code</h1>	
+<xmp>
+	<!-- Comment -->
+
+		1. <!--  --> this comment tag is used to write comment inside the source code, it will not be displayed in page
+</xmp>
+	
+	<!-- comment part end -->
+
+	<!-- Version control system start -->
+
+<h1>What is version control system</h1>
+<xmp>
+	Control system:
+
+		1. After finishing a project we used to update or redesign that.
+		2. It consists of three parts.
+			>Edit
+			>Delete
+			>Add
+		3. After finishing update or redesign we get another version of our project
+		4. This is the new version of our project
+		5. We used to name the version as 1.0/1.1/2.1.	
+</xmp>
+
+	<!-- Version control system start -->
+
+	<!-- content part start -->
+
+<h1>Contents of html</h1>	
+<xmp>
+	Content:
+
+		1. Element:(Condition: Startng tag[<>] + content + ending tag[</>])
+		2. <h1>Title for a paragraph</h1>
+		3. here h stands for heading
+		4. There are 6 types of heading differs by their size, they are
+			
+</xmp>
+			<xmp><h1>Lorem ipsum dolor sit amet.</h1></xmp>
+			<h1>Lorem ipsum dolor sit amet.</h1>
+			<xmp><h2>Lorem ipsum dolor sit amet.</h2></xmp>
+					<h2>Lorem ipsum dolor sit amet.</h2>
+			<xmp><h3>Lorem ipsum dolor sit amet.</h3></xmp>
+					<h3>Lorem ipsum dolor sit amet.</h3>
+			<xmp><h4>Lorem ipsum dolor sit amet.</h4></xmp>
+					<h4>Lorem ipsum dolor sit amet.</h4>					
+			<xmp><h5>Lorem ipsum dolor sit amet.</h5></xmp>
+					<h5>Lorem ipsum dolor sit amet.</h5>
+			<xmp><h6>Lorem ipsum dolor sit amet.</h6></xmp>
+					<h6>Lorem ipsum dolor sit amet.</h6>
+<xmp>
+		5. <p></p> Paragraph, used to set type as paragraph, normally used for long text/paragraph
+			
+	Tag: 
+
+		1. Condition: Everything under the staring curly braces[<>], no ending tag required [</> not required]
+		2. such as 
+			<img src="images/images_1.png">
+			> Can not direct show images in html file, need to link the image
+			> link the image with source attribute
+			> Best practise is to keep all the images in images folder which will be in root folder where index.html or page file situated.
+			> Shown in the images below
+</xmp>		
+		<h3>Example image 1</h3>
+		<img src="images/image_1.PNG" alt="folder of images">
+		<h3>Example image 2</h3>
+		<img src="images/image_2.PNG" alt="folder of images"><br>
+<xmp>		
+	Attribute:
+
+		1. Attributes are the additional data which is used in side the starting tag
+		2. Such as (src, alt, lang, charset)
+		3. example
+			<img src="images/banner.png" alt="banner of the page">	
+			> Here alt="" attribute is used to show the name of the image if the image is missing.
+		4. Such as
+</xmp>	<pre>
+		<img src="images/banner.jpg" alt="banner of the page"><br>
+
+		Here the image is missing, still the name of the image is showing.
+		</pre>
+
+		<!-- content part end -->
+
+		<!-- Additional note part start -->
+<h1>Additonal Notes</h1>
+<xmp>		
+	Note: 
+
+		1. For dummy text use lorem ipsum, 
+		2. Never use any commercial images or contents, it might cause some coppyright issues.
+</xmp>
+
+		<!-- Additional note part end -->
+	
+</body>
+</html>
